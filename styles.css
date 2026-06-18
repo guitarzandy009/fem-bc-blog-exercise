@@ -34,7 +34,7 @@ a:hover {
 .wrapper {
   width: 80%;
   margin: 0 auto;
-  border: 5px solid red;
+  /* border: 5px solid red; */
 }
 
 .posted {
@@ -68,6 +68,53 @@ header {
 
 .rightheader p {
   margin-top: 0.5rem;
+}
+
+nav {
+  border-bottom: 1px solid #da0090;
+  border-top: 1px solid #da0090;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+  color: #73352e;
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+nav a:hover {
+  background-color: black;
+  color: #84de37;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+article {
+  margin: 2rem 0;
+  /* border: 3px solid blue; */
+}
+
+article img {
+  float: left;
+  margin: 0 1rem 1rem 0;
+  border-radius: 1rem;
+}
+
+article:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 section {
